@@ -167,6 +167,13 @@ Call 1 to sip:+34655555555@telefonica.net in progress.
  ... stop daemon
 ```
 
+### root user at the pendant
+
+The SAFE pendant software is executed as `root` user in a service, so it is recommendable to test with it:
+```
+sudo ./linphone_call.sh -v linphonerc.ini +34670619949
+```
+
 ## Troubleshooting
 
 If the softphone is not working properly, take a look at the log file `linphone_call.log` and also do some cleaning actions as those in the `linphone_reset.sh` script, besides to `linphone_call.sh` one.
