@@ -29,6 +29,7 @@ Raspberry Pi Zero preparation:
 If the software is not compiled but reused from the packages in this repository, there are some requirements:
 ```bash
 sudo apt-get install -y libasound2-dev libpulse-dev libv4l-dev libglew-dev 
+```
 
 Additionally, the SOX tool is required for Snips SAFE Base and Satellite call scripts.
 
@@ -57,7 +58,7 @@ mkdir -p /var/lib/snips/skills/snips-app-safe/lib/mediastreamer && cp -R lib/med
 mkdir -p /var/lib/snips/skills/snips-app-safe/.local/share/linphone/ && chmod 777 /var/lib/snips/skills/snips-app-safe/.local/share/linphone/
 ```
 
-SAFE satellite (root user, as a service):
+SAFE satellite (`root` user, as a service):
 
 ```bash
 mkdir -p /var/lib/snips/snips-satellite-safe/lib/mediastreamer && cp -R lib/mediastreamer/plugins /var/lib/snips/snips-satellite-safe/lib/mediastreamer
