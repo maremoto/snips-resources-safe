@@ -1,5 +1,6 @@
 # snips-resources-safe
 SAFE system extra resources and configuration snippets
+<img src="https://github.com/maremoto/snips-resources-safe/blob/master/docs/SAFE.png" alt="SAFE logo">
 
 # Linphone
 
